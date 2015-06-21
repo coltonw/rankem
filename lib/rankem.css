@@ -1,0 +1,49 @@
+.kem-ties .kem-item {
+  float: left;
+}
+
+.kem-rank {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+	width: 100%;
+}
+
+.kem-drag-onto {
+  position: absolute;
+  left: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  z-index: 600;
+  width: 100%;
+  background-color: transparent;
+}
+
+.kem-drag-onto.kem-dragging-over .kem-arrow {
+  background-image: url(images/arrow.png);
+  background-repeat: no-repeat;
+}
+
+.kem-drag-onto-bottom.kem-dragging-over .kem-arrow {
+  background-image: url(images/arrow-bottom.png);
+}
+
+.kem-drag-onto-top.kem-dragging-over .kem-arrow {
+  background-image: url(images/arrow-top.png);
+}
+
+.kem-drag-onto-between.kem-dragging-over .kem-arrow {
+  background-image: url(images/arrow-between.png);
+}
+
+.kem-arrow {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  z-index: 500;
+}
+
+.kem-container {
+  padding-left: 30px;
+}

@@ -6,7 +6,6 @@ Rankem is a front-end library for letting users rank objects.
 
 - [Will Colton](https://github.com/coltonw)
 
-
 ## License
 
 MIT

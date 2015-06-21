@@ -1,0 +1,25 @@
+div {
+  box-sizing: border-box;
+}
+
+.kem-item {
+  height: 80px;
+  width: 80px;
+  padding: 30px;
+  margin: 5px;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  border-radius: 4px;
+}
+
+.kem-drag-onto {
+  border: 1px solid green;
+}
+
+.kem-drag-onto-top, .kem-drag-onto-between, .kem-drag-onto-bottom {
+  border-color: red;
+}
+
